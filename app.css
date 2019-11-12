@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.left,
+.right {
+  float: left;
+  width: 20%;
+}
+.main {
+  float: left;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
+.link {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #222;
+}
+p a {
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
